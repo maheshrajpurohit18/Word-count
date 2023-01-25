@@ -31,7 +31,7 @@ End the program
 
 ## PROGRAM:
 
-fname = input('Enter file name:')
+fname = input('Enter file name:') 
 num_words = 0
 with open(fname, 'r') as f:
     for line in f:
